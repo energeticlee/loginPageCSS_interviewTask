@@ -1,0 +1,46 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+}
+
+.form {
+    width: 70%;
+}
+
+.label {
+    text-align: left;
+    margin: 5px 0;
+    letter-spacing: 0.6px;
+}
+
+.input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.submitContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    margin: 0 5px 0 0;
+}
+
+.button {
+    background-color: var(--color-primary);
+    font-weight: 550;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: none;
+}
